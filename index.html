@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
 </head>
 <body>
    <header class="header">
@@ -24,11 +29,135 @@
                 <a href="#contact">Contact</a>
             </li>
         </ul>
-
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-
+        <i class='bx bx-menu' id="menu-icon"></i>
         <button class="visit-btn">Visit Github</button>
    </header> 
+
+   <section class="about" id="about">
+    <div class="about-container">
+        <img src="./resources/KW_Profile_Pic_Transparent_Resize.png" alt="">
+
+        <div class="info-box">
+            <div class="text">
+                <h3>Hi, I'm</h3>
+                <h1>Ryan Davis</h1>
+                <span>Fullstack Dev</span>
+            </div>
+
+            <div class="btn-group">
+                <div class="btn">Download Resume</div>
+                <div class="btn">Contact</div>
+            </div>
+
+            <div class="socials">
+                <i class='bx bxl-github' ></i>       
+                <i class='bx bxl-linkedin'></i>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="experience" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-info">
+
+        <div class="grid">
+            <div class="grid-card">
+                <i class='bx bxl-javascript'></i>
+                <span>Full Stack Developer</span>
+                <h3>6 months</h3>
+                <p>Javascript, Java Spring, MERN Stack</p>
+            </div>
+            <div class="grid-card">
+                <i class='bx bxl-python' ></i>
+                <span>Python Developer</span>
+                <h3>3 years</h3>
+                <p>Data Science and Mining, Introduction to A.I., IT Scripting with CI/CD, experience with ArcPy, Pandas, MatplotLib</p>
+            </div>
+            <div class="grid-card">
+                <i class='bx bx-map-alt' ></i>
+                <span>GIS Programmer</span>
+                <h3>1 year</h3>
+                <p>ArcGIS w/ Arcpy and Google Earth Engine</p>
+            </div>
+            <div class="grid-card">
+                <i class='bx bxl-java' ></i>
+                <span>Java Developer</span>
+                <h3>3 years</h3>
+                <p>Data Structures and Algorithms, BioInformatics</p>
+            </div>
+            
+        </div>
+
+        <img src="./resources/IMG_3896.jpg" alt="">
+
+
+    </div>
+   </section>
+
+   <section id="projects" class="projects">
+        <h2 class="section-title">Favorite Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./resources/racket to c thumbnail.JPG" alt="">
+                <h3>Recursion Only Interpreter</h3>
+                <p>A tail recursive turing complete programming language implemented in Racket and in C</p>
+                <div class="btn-group">
+                    <div class="btn">Youtube Demo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./resources/seam carver.JPG" alt="">
+                <h3>Seam Carver in Java</h3>
+                <p>Efficient Command Line Seam Carver</p>
+                <div class="btn-group">
+                    <div class="btn">Youtube Demo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./resources/Sudoku Solver Thumbnail.JPG" alt="">
+                <h3>Sudoku Solver in Python</h3>
+                <p>Solve an NxN Sudokku Board with Constraints for efficient backtracking</p>
+                <div class="btn-group">
+                    <div class="btn">Youtube Demo</div>
+                </div>
+            </div>
+        </div>
+   </section>
+   
+   
+  <section class="contact" id="contact">
+    <div class="input-box">
+
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+            <input type="text" placeholder="example@email.com">
+            <i class='bx bx-envelope'></i>
+        </div>
+
+        <div class="btn">Submit</div>
+    </div>
+  </section> 
+   
+  <footer>
+    <ul>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <p class="copyright">Ryan Davis</p>
+  </footer>
+   
    <script src="main.js"></script>
 </body>
 </html>
