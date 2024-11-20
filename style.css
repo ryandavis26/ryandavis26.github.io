@@ -185,7 +185,6 @@ section{
 .experience img{
     width: 24vw;
     border-radius: 3rem;
-    mix-blend-mode: plus-darker;
 }
 .grid{
     display: grid;
