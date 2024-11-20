@@ -144,6 +144,9 @@ section{
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
 }
+.btn a{
+    color: white;
+}
 .btn:hover{
    background-color: black; 
    color: white;
@@ -272,24 +275,18 @@ section{
     gap: 2rem;
     margin-top: 5rem;
 }
-.input-box input{
-    border-radius: 3rem;
-    border: 2px solid black;
-    padding: 2rem 8rem;
+.input-box h3{
+    color: white;
     font-size: 3rem;
+    text-decoration: underline;
 }
-.input-box input::placeholder{
-    font-size: 3rem;
+.input-box h3:hover{
+    color: magenta;
+
 }
-.input{
-    position: relative;
-}
-.input i{
-    position: absolute;
-    font-size: 4rem;
-    top: 50%;
-    left: 10px;
-    transform: translate(50%, -50%);
+.input-box p{
+    color: white;
+    font-size: 1.5rem;
 }
 footer{
     bottom: 0;
@@ -328,16 +325,7 @@ footer ul li a{
     .experience-info{
         flex-direction: column;
     }
-    .input-box input{
-        padding: 2rem 5rem;
-        font-size: 2rem;
-    }
-    .input input::placeholder{
-        font-size: 2rem;
-    }
-    .input-box i {
-        font-size: 2rem;
-    }
+    
 }
 @media(max-width:768px){
     header{
@@ -353,16 +341,10 @@ footer ul li a{
     .about-container{
         flex-direction: column;
     }
-    .input-box input{
-        padding: 1rem 1rem;
-        font-size: 1.8rem;
+    .input-box h3{
+        font-size: 2rem;
     }
-    .input input::placeholder{
-        font-size: 1.8rem;
-    }
-    .input-box i {
-        display: none;
-    }
+    
     .grid{
         grid-template-columns: repeat(1,1fr);
     }
@@ -413,14 +395,10 @@ footer ul li a{
     .experience .section-title{
         font-size: 3rem;
     }
-    .input-box input{
-        padding: 0.5rem 3rem;
-        width: 80%;
-        font-size: 1.5rem;
+    .input-box h3{
+        font-size: 1.8rem;
     }
-    .input-box input::placeholder{
-        font-size: 1.5rem;
-    }
+   
     footer ul{
         gap: 1rem;
     }
