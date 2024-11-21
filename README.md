@@ -4,4 +4,4 @@
 
 ### Styling tips, font sizes and CSS Grid/Flexbox was created following this very good tutorial from 'How to Web Dev' on  youtube, go check him out
 
-[How To Web Dev Personal Portfolio](https://www.genome.gov/)
+[How To Web Dev Personal Portfolio](https://www.youtube.com/watch?v=NWZQkwXtHJo&ab_channel=HowtoWebDev)
